@@ -28,7 +28,7 @@ __Nota: Los siguientes pasos para WebService se realizaron desde Postman importa
 
 # Mobile
 
-__Nota: Los siguientes pasos para Mobile se realizaron desde Intellij utilizando el lenguaje java, para el escenario de pruebas se uso Cucumber, se implementa un gestor de dependencias Maven.__
+__Nota: Los siguientes pasos para Mobile se realizaron desde Intellij utilizando el lenguaje java, para el escenario de pruebas se uso Cucumber, se implementa un gestor de dependencias Maven y para la descripción de los casos gherkin.__
 
 ## 1. Sección Login:
 __Se realiza el Login, este se ejecuta ingresando a la carpeta src/java/runner/DemoTest. En Tags se coloca el nombre del caso que se quiere probar, en este caso LOGIN, de acuerdo al feature__
