@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "058ce9fa-24db-4cfe-aedc-cec6c0199e8b",
+		"name": "Request_Web_Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24746003"
+	},
+	"item": [
+		{
+			"name": "post_pet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 10,\n  \"category\": {\n    \"id\": 1,\n    \"name\": \"string\"\n  },\n  \"name\": \"firulais10\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 1,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_pet_id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/10",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put_pet",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 20,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"LUNA20\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}"
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
