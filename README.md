@@ -1,6 +1,6 @@
 # WebService
 
-__Nota: Los siguientes pasos para WebService se realizaron desde Postman importando el CURL para crear el REQUEST (Para los 3 casos, el Status code es 200 tal cual se muestran en las imágenes)__
+__Nota: Los siguientes pasos para WebService se realizaron desde Postman importando el CURL para crear el REQUEST (Para los 3 casos, el Status code es 200 tal cual se muestran en las imágenes). El collection del POSTMAN se encuentra en la carpeta /baufest/WebService/__
 
 ## 1. Agregar una mascota realizando un POST al path /v2/pet:
 
