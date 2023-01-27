@@ -57,7 +57,20 @@ __Se realiza el Webview, este se ejecuta ingresando a la carpeta src/java/runner
 ![webviewer](https://user-images.githubusercontent.com/123605259/215009742-56a538b2-6c5d-4dd9-a145-e1e06d7b6632.png)
 
 
+# Web
+
+__Nota: Los siguientes pasos para Web se realizaron desde Intellij utilizando el lenguaje java, para el escenario de pruebas se uso Cucumber, se implementa un gestor de dependencias Maven.__
+
+## 1. Sección Sign up:
+__Se realiza el Sign up, este se ejecuta ingresando a la carpeta src/java/runner/RunnerTest. En Tags se coloca el nombre del caso que se quiere probar, en este caso SIGNUP, de acuerdo al feature__
 
 
+![signup](https://user-images.githubusercontent.com/123715992/215032546-027160fe-10c7-49f8-b3d9-5e37e1af9ffe.png)
 
+
+## 2. Sección Log in y Log out:
+__Se realiza el Log in y Log out, este se ejecuta ingresando a la carpeta src/java/runner/RunnerTest. En Tags se coloca el nombre del caso que se quiere probar, en este caso LOGINLOGOUT, de acuerdo al feature__
+
+
+![loginlogout](https://user-images.githubusercontent.com/123715992/215032775-da7715f9-6961-4898-a86e-81c1e058b33b.png)
 
